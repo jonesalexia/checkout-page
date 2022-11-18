@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h2>Checkout</h2>
+    </header>
+    
+      <div id="main">
+        <div id="rows">
+          <div class="column" id="col-1">
+    
+            <form id="form-name" onsubmit="JavaScript:alertZero()">
+              <div id="contact-info" class="title">
+                <span>Contact infomation</span>
+              </div>
+    
+              <div id="email-label">
+                <label for="email" class="label-names">E-mail</label>
+                <br>
+                <i class="material-icons mail">
+                  mail
+                </i>
+                <input type="email" id="email" name="email" placeholder="Enter your email..." class="contain">
+              </div>
+    
+              <div id="call-label">
+                <label for="tel" class="label-names">Phone</label>
+                <br>
+                <i class="material-icons call">
+                  call
+                </i>
+                <input type="tel" id="tel" name="phone" placeholder="Enter your phone..." class="contain">
+              </div>
+    
+              <div id="address-info" class="title">
+                <span>Shipping address</span>
+              </div>
+    
+              <div id="name-label">
+                <label for="name" class="label-names">Full name</label>
+                <br>
+                <i class="material-icons person">
+                  person
+                </i>
+                <input type="name" id="name" name="name" placeholder="Your name..." class="contain">
+              </div>
+    
+              <div id="address-label">
+                <label for="add" class="label-names">Address</label>
+                <br>
+                <i class="material-icons home">
+                  home
+                </i>
+                <input type="text" id="add" name="address" placeholder="Your address..." class="contain">
+              </div>
+    
+              <div id="city-label">
+                <label for="city" class="label-names">City</label>
+                <br>
+                <i class="material-icons apartment">
+                  apartment
+                </i>
+                <input type="text" id="city"  name="city" placeholder="Your city..." class="contain">
+              </div>
+    
+              <div id="country-label">
+                <label for="country" class="label-names">Country</label>
+                <br>
+                <i class="material-icons public">
+                  public
+                </i>
+                <select id="dropdown" name="country" placeholder="Your country..." class="contain">
+                  <option disabled selected value>Your country...</option>
+                  <option value="brazil">Brazil</option>
+                  <option value="Japan">Japan</option>
+                  <option value="argentina">Argentina</option>
+                </select>
+              </div>
+    
+              <div id="code-label">
+                <label for="code-input" class="label-names">Postal code</label>
+                <br>
+                <i class="material-icons markunread_mailbox">
+                  markunread_mailbox
+                </i>
+                <input type="text" name="postal-code" placeholder="Your postal code..." id="code-input" class="contain">
+              </div>
+    
+              <div id="check-label">
+                <label>
+                  <input name="save" value="save" type="checkbox" class="input-check">
+                  <span id="save-text">
+                    Save this information for next time
+                  </span>
+                </label>
+              </div>
+    
+              <div id="submit-label">
+                <input name="continue" value="Continue" type="submit" id="sub-button">
+              </div>
+            </form>
+          </div>
+    
+          <div class="column" id="col-2">
+    
+            <div class="item-row" id="item-row-1">
+              <img class="picture" alt="Product 1" src="assets/photo1.png">
+              <h4 class="item-1">Vintage Backbag</h4>
+              <p class="item_1">
+                <span class="price">$54.99</span>&nbsp;&nbsp;<strike>$94.99</strike>
+              </p>
+              <p class="quantity">
+                <input name="minus" value="-" type="button" onclick="decrement()" class="button-minus">
+                <span class="quantity-num" id="quantity">1</span>
+                <input name="plus" value="+" type="button" onclick="increment()" class="button-plus">
+              </p>
+            </div>
+    
+            <div class="item-row" id="item-row-2">
+              <img class="picture" alt="Product 2" src="assets/photo2.png">
+              <h4 class="item-2">Levi Shoes</h4>
+              <p class="item_2">
+                <span class="price">$74.99</span>&nbsp;&nbsp;<strike>$124.99</strike>
+              </p>
+              <p class="quantity">
+                <input name="minus" value="-" type="button" onclick="decrement()" class="button-minus">
+                <span class="quantity-num" id="quantity">1</span>
+                <input name="plus" value="+" type="button" onclick="increment()" class="button-plus">            
+              </p>
+            </div>
+    
+            <hr class="details-horizontal" id="hr-1">
+    
+            <div class="details">
+              <p class="detail-title">Shipping
+                <span class="total-price" id="sub-price">$19</span>
+              </p>
+            </div>
+    
+            <hr class="details-horizontal" id="hr-2">
+    
+            <div class="details">
+              <p class="detail-title">
+                Total
+                <span class="total-price" id="t-price">$148.98</span>
+              </p>
+            </div>
+
+            
+          </div>
+    
+        </div>
+    
+      </div>
+    
+      <footer>
+        created by <a href="https://github.com/jonesalexia" target="_blank">Alexia Jones</a> -     devChallenges.io
+      </footer>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
