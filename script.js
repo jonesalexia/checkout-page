@@ -1,17 +1,33 @@
-//initialising a variable name data
-var data = 1;
+var number = 0;
+var number2 = 0;
+
+function lessProduct1() {
+  number--;
+  setValue(number);
+}
+
+function moreProduct1() {
+  number++;
+  setValue(number);
+}
+
+function lessProduct2() {
+    number2--;
+    setValue2(number2);
+  }
   
-//printing default value of data that is 0 in h2 tag
-document.getElementsById("quantity").innerText = data;
+  function moreProduct2() {
+    number2++;
+    setValue2(number2);
+  }
 
-//creation of increment function
-function increment() {
-     data = data + 1;
-    document.getElementsById("quantity").innerText = data;
+function setValue(value) {
+  document.getElementById('qty').value = value;
 }
 
-//creation of decrement function 
-function decrement() {
-    data = data - 1;
-     document.getElementsById("quantity").innerText = data;
+function setValue2(value) {
+    document.getElementById('qty-2').value = value;
 }
+
+setValue(number);
+setValue2(number2);

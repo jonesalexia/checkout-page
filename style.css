@@ -213,8 +213,11 @@ strike {
 	text-align: center;
 }
 
-.quantity-num {
-	margin: 0 20px 0;
+.number {
+    width: 26px;
+    text-align: center;
+    border: none;
+    background: #F2F2F2;
 }
 
 .button-minus, .button-plus {
