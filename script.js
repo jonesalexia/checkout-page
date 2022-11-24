@@ -14,7 +14,7 @@ function moreProduct1() {
 function lessProduct2() {
     number2--;
     setValue2(number2);
-  }
+ }
   
   function moreProduct2() {
     number2++;
@@ -31,3 +31,5 @@ function setValue2(value) {
 
 setValue(number);
 setValue2(number2);
+
+

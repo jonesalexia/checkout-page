@@ -1,0 +1,673 @@
+@media only screen and (max-width: 1250px) {
+	body {
+		transform: scale(1);
+	}
+	
+	#col-1, header {
+		margin-left: 100px;
+	}
+	
+	.material-icons {
+		left: 120px;
+	}
+	
+	.markunread_mailbox {
+		left: 365px;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	body {
+		transform: scale(0.95);
+	}
+	
+	#col-1, header {
+		margin-left: 50px;
+	}
+	
+	header {
+		margin-top: 50px;
+	}
+	
+	.material-icons {
+		left: 65px;
+	}
+	
+	.markunread_mailbox {
+		left: 315px;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	body {
+		transform: scale(0.9);
+	}
+	
+	#col-1, header {
+		margin-left: 10px;
+	}
+	
+	header {
+		margin-top: 10px;
+	}
+	
+	.material-icons {
+		left: 25px;
+	}
+	
+	.markunread_mailbox {
+		left: 275px;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	
+	#col-1, header {
+		margin-left: -40px;
+	}
+	
+	header {
+		margin-top: 10px;
+	}
+	
+	.material-icons {
+		left: -25px;
+	}
+	
+	.markunread_mailbox {
+		left: 225px;
+	}
+	
+	#col-2 {
+		text-align: center;
+		margin-right:30px;
+	}
+	
+	.details-horizontal {
+		width: 325px;
+		margin-right: 20;
+	}
+	
+	footer {
+		margin-bottom: -50px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	
+	#col-1, header {
+		margin-left: -75px;
+	}
+
+	.material-icons {
+		left: -60px;
+	}
+	
+	.markunread_mailbox {
+		left: 190px;
+	}
+	
+	#col-2 {
+		margin-right: 10px;
+	}
+	
+	header {
+		margin-top: -50px;
+	}
+	
+	footer {
+		margin-bottom: -100px;
+	}
+}
+
+@media only screen and (max-width: 820px) {
+	
+	
+	#rows {
+		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+	
+	.column {
+		flex: 100%;
+		align-items: center;
+	}
+	
+	#col-1, header {
+		margin-left: 75px;
+	}
+	
+	header {
+		margin-top: 50px;
+	}
+	
+	.contain {
+		width: 565px;
+	}
+	
+	.material-icons {
+		left: 90px;
+	}
+	
+	#col-2 {
+		text-align: center;
+		margin: 50px 80px 0;
+	}
+	
+	.mail {
+		top: 790px;
+	}
+
+	.call {
+		top: 895px;
+	}
+
+	.person {
+		top: 1070px;
+	}
+
+	.home {
+		top: 1175px;
+	}
+
+	.apartment {
+		top: 1272px;
+	}
+
+	.public {
+		top: 1372px;
+	}
+
+	.markunread_mailbox {
+		top: 1372px;
+		left: 380px;
+	}
+	
+	#dropdown {
+		width: 275px;
+	}
+	
+	#code-input {
+		width: 275px;
+	}
+	
+	#code-label {
+		margin: -81px 0 0 290px;
+	}
+	
+	#submit-label {
+	  margin: 23px 0 95px 400px;
+	}
+	
+	.details-horizontal {
+		width: 91%;
+		margin: 0;
+	}
+	
+	footer {
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	#rows {
+		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+	
+	.column {
+		flex: 100%;
+	}
+	
+	header {
+		margin-left: 12px;
+	}
+	
+	form {
+		margin-left: 40px;
+	}
+	
+	.material-icons {
+		left: 30px;
+	}
+	
+	.mail {
+		margin: -48px 0 0 5px;
+		
+	}
+
+	.call {
+		margin: -51px 0 0 5px;
+	}
+
+	.person {
+		margin: -51px 0 0 5px;
+	}
+
+	.home {
+		margin: -55px 0 0 5px;
+	}
+
+	.apartment {
+		margin: -58px 0 0 5px;
+	}
+
+	.public {
+		margin: -60px 0 0 5px;
+	}
+
+	
+	.markunread_mailbox {
+		margin: -65px 0 0 40px;
+	}
+	
+	#col-2 {
+		text-align: center;
+		margin: 55px 60px 0 50px;
+		padding: 40px;
+	}
+	
+	.details-horizontal {
+		width: 91%;
+		margin: 0;
+	}
+	
+	.picture {
+		margin-right: 50px;
+	}
+	
+	.qty {
+		margin: 30px 0 0 185px;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+	#rows {
+		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+	
+	.column {
+		flex: 100%;
+	}
+	
+	header {
+		margin-top: 32px;
+	}
+	
+	#col-1, header {
+		margin-left: 25px;
+	}
+	
+	.contain {
+		width: 500px;
+	}
+	
+	.material-icons {
+		left: 40px;
+	}
+	
+	
+	.mail {
+		margin: -39px 0 0 5px;
+		
+	}
+
+	.call {
+		margin: -41px 0 0 5px;
+	}
+
+	.person {
+		margin: -45px 0 0 5px;
+	}
+
+	.home {
+		margin: -49px 0 0 5px;
+	}
+
+	.apartment {
+		margin: -53px 0 0 5px;
+	}
+
+	.public {
+		margin: -55px 0 0 5px;
+	}
+
+	
+	.markunread_mailbox {
+		margin: -55px 0 0 0;
+	}
+	
+	#dropdown {
+		width: 223px;
+	}
+	
+	#code-input {
+		width: 223px;
+		margin-left: -40px;
+	}
+	
+	#code-label {
+		margin: -81px 0 0 287px;
+	}
+	
+	#sub-button {
+		margin-left: -220px;
+	}
+	
+	#code-title {
+		margin-left: -40px;
+	}
+	
+	#col-2 {
+		text-align: center;
+		margin: 55px 50px 0;
+		padding: 40px 35px;
+	}
+	
+	.details-horizontal {
+		width: 91%;
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	#rows {
+		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+	
+	.column {
+		flex: 100%;
+	}
+	
+	header {
+		margin-top: 32px;
+	}
+	
+	#col-1, header {
+		margin-left: 20px;
+	}
+	
+	.contain {
+		width: 450px;
+	}
+	
+	.material-icons {
+		left: 35px;
+	}
+	
+	.mail {
+		top: 790px;
+	}
+
+	.call {
+		top: 895px;
+	}
+
+	.person {
+		top: 1070px;
+	}
+
+	.home {
+		top: 1175px;
+	}
+
+	.apartment {
+		top: 1275px;
+	}
+
+	.public {
+		top: 1370px;
+	}
+
+	.markunread_mailbox {
+		top: 1370px;
+		left: 280px;
+	}
+	
+	#dropdown {
+		width: 210px;
+	}
+	
+	#code-input {
+		width: 210px;
+	}
+	
+	#code-label {
+		margin: -81px 0 0 242px;
+	}
+	
+	#submit-label {
+	  margin: 23px 0 95px 290px;
+	}
+	
+	#col-2 {
+		text-align: center;
+		margin: 55px 20px 0;
+		padding: 30px 0px 40px 30px;
+	}
+	
+	.details-horizontal {
+		width: 91%;
+		margin: 0;
+	}
+}
+
+@media only screen and (max-width: 510px) {
+	#rows {
+		display: flex;
+		flex-wrap: wrap-reverse;
+	}
+	
+	.column {
+		flex: 100%;
+	}
+	
+	header {
+		margin-top: 32px;
+	}
+	
+	#col-1, header {
+		margin-left: 30px;
+	}
+	
+	#col-2 {
+		transform: scale(0.9);
+		margin: 0;
+		padding: 40px 0px;
+		text-align: center;
+	}
+	
+	.details-horizontal {
+		width: 85%;
+		margin: 0 30px;
+	}
+	
+	.material-icons {
+		left: 40px;
+	}
+	
+	.mail {
+		top: 734px;
+	}
+
+	.call {
+		top: 824px;
+	}
+
+	.person {
+		top: 975px;
+	}
+
+	.home {
+		top: 1065px;
+	}
+
+	.apartment {
+		top: 1150px;
+	}
+
+	.public {
+		top: 1235px;
+	}
+
+	.markunread_mailbox {
+		top: 1235px;
+		left: 232.5px;
+	}
+	
+	.item-row {
+		margin-left: 40px;
+	}
+	
+	.heads {
+		width: 179.85px;
+		height: 16.52px;
+		font-size: 14px;
+		line-height: 17px;
+	}
+	
+	.label-names {
+		width: 136.83px;
+		height: 11.27px;
+		font-size: 10px;
+		line-height: 12px;
+	}
+	
+	.contain {
+		width: 375px;
+		height: 41px;
+		text-indent: 39px;
+	}
+	
+	#dropdown {
+		width: 183px;
+		height: 41px;
+	}
+	
+	#code-input {
+		width: 183px;
+		height: 37px;
+	}
+	
+	#code-label {
+		margin: -66px 0 0 192px;
+	}
+	
+	#submit-label {
+	  margin: 23px 0 95px 215px;
+	}
+}
+
+@media only screen and (max-width: 440px) {	
+	header {
+		width: 120px;
+		height: 29px;
+		font-size: 24px;
+		line-height: 29px;
+	}
+	
+	#col-1, header {
+		margin-left: 15px;
+	}
+	
+	.material-icons {
+		left: 25px;
+	}
+	
+	.mail {
+		top: 709px;
+	}
+
+	.call {
+		top: 799px;
+	}
+
+	.person {
+		top: 955px;
+	}
+
+	.home {
+		top: 1045px;
+	}
+
+	.apartment {
+		top: 1130px;
+	}
+
+	.public {
+		top: 1213px;
+	}
+
+	.markunread_mailbox {
+		top: 1213px;
+		left: 202.5px;
+	}
+	
+	#col-2 {
+		margin: 0 0 0 -7px;
+		transform: scale(0.9);
+		padding: 30px 0px 40px;
+	}
+	
+	.item-row {
+		margin-left: 34px;
+	}
+	
+	.detials-horizontal {
+		width: 85%;
+	}
+
+	.detail-title {
+		margin-left: 30px;
+	}
+	
+	#col-1 {
+		margin-top: 0;
+	}
+	
+	.contain {
+		width: 340px;
+		height: 41px;
+		text-indent: 39px;
+	}
+	
+	#dropdown {
+		width: 163px;
+		height: 41px;
+	}
+	
+	#code-input {
+		width: 163px;
+		height: 37px;
+	}
+	
+	#code-label {
+		margin: -66px 0 0 177px;
+	}
+	
+	#submit-label {
+	  margin: 23px 0 95px 180px;
+	}
+}
+
+@media only screen and (max-width: 390px) {
+	#col-1, header {
+		margin-left: 10px;
+	}
+	
+	#col-2 {
+		margin-left: -12px;
+	}
+	
+	.material-icons {
+		left: 20px;
+	}
+
+	.markunread_mailbox {
+		top: 1210px;
+		left: 198px;
+	}
+}
