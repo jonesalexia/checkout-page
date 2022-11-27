@@ -2,7 +2,9 @@ var number = 0;
 var number2 = 0;
 
 function lessProduct1() {
-  number--;
+  if(number > 0) {
+    number--;
+  }
   setValue(number);
 }
 
@@ -12,14 +14,16 @@ function moreProduct1() {
 }
 
 function lessProduct2() {
+  if(number2 > 0) {
     number2--;
-    setValue2(number2);
+  }
+  setValue2(number2);
  }
   
-  function moreProduct2() {
+ function moreProduct2() {
     number2++;
     setValue2(number2);
-  }
+}
 
 function setValue(value) {
   document.getElementById('qty').value = value;
