@@ -1,39 +1,56 @@
-var number = 0;
-var number2 = 0;
+function addQty() {
+  let el = document.getElementById("qty");
+  let value = parseInt(el.text);
+  value += 1;
+  el.text = value;
+  updateCart();
+}
 
-function lessProduct1() {
-  if(number > 0) {
-    number--;
+function addQty2() {
+  let el = document.getElementById("qty-2");
+  let value = parseInt(el.text);
+  value += 1;
+  el.text = value;
+  updateCart();
+}
+
+function removeQty() {
+  let el = document.getElementById("qty");
+  let value = parseInt(el.text);
+  if (value > 0) {
+    value -= 1;
+    el.text = value;
   }
-  setValue(number);
+  updateCart();
 }
 
-function moreProduct1() {
-  number++;
-  setValue(number);
-}
-
-function lessProduct2() {
-  if(number2 > 0) {
-    number2--;
+function removeQty2() {
+  let el = document.getElementById("qty-2");
+  let value = parseInt(el.text);
+  if (value > 0) {
+    value -= 1;
+    el.text = value;
   }
-  setValue2(number2);
- }
-  
- function moreProduct2() {
-    number2++;
-    setValue2(number2);
+   updateCart();
 }
 
-function setValue(value) {
-  document.getElementById('qty').value = value;
+function updateCart() {
+  let total = 0;
+  let el = document.getElementById("qty");
+  let value = parseInt(el.text);
+  let totalPrice = document.getElementById("price1");
+  let priceTotal = parseFloat(totalPrice.textContent);
+  total += value * priceTotal;
+  const totalCst = document.getElementById("t-price").textContent = '$' + total.toFixed(2);
+
+  let total2 = 0;
+  let el2 = document.getElementById("qty-2");
+  let value2 = parseInt(el2.text);
+  let totalPrice2 = document.getElementById("price2");
+  let priceTotal2 = parseFloat(totalPrice2.textContent);
+  total2 += value2 * priceTotal2;
+  const totalCst2 = document.getElementById("t-price").textContent = '$' + total2.toFixed(2);
+
+  let totalize = total + total2;
+  const totalcst3 = document.getElementById("t-price").textContent = '$' + totalize.toFixed(2);
 }
-
-function setValue2(value) {
-    document.getElementById('qty-2').value = value;
-}
-
-setValue(number);
-setValue2(number2);
-
-

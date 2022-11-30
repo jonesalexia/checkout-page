@@ -123,13 +123,12 @@
               <img class="picture" alt="Product 1" src="assets/photo1.png">
               <h4 class="item-1">Vintage Backbag</h4>
               <p class="item_1">
-                <span class="price">$54.99</span>&nbsp;&nbsp;<strike>$94.99</strike>
+                <span id="price1" class="price">54.99</span>&nbsp;&nbsp;<strike>$94.99</strike>
               </p>
               <p class="quantity">
-                <input name="minus" value="-" type="button" onclick="lessProduct1()" class="button-minus">
-                <input class="number" id="qty" >
-                <input name="plus" value="+" type="button"  onclick="moreProduct1()" class="button-plus">
-                         
+                <input name="minus" value="-" type="button" onclick="removeQty()" class="button-minus">
+                <a class="number" id="qty">0</a>
+                <input name="plus" value="+" type="button"  onclick="addQty()"  class="button-plus">       
               </p>
             </div>
     
@@ -137,12 +136,12 @@
               <img class="picture" alt="Product 2" src="assets/photo2.png">
               <h4 class="item-2">Levi Shoes</h4>
               <p class="item_2">
-                <span class="price">$74.99</span>&nbsp;&nbsp;<strike>$124.99</strike>
+                <span id="price2" class="price">74.99</span>&nbsp;&nbsp;<strike>$124.99</strike>
               </p>
               <p class="quantity">
-                <input name="minus" value="-" type="button" onclick="lessProduct2()" class="button-minus">
-                <input class="number" id="qty-2" >
-                <input name="plus" value="+" type="button"  onclick="moreProduct2()" class="button-plus">
+                <input name="minus" value="-" type="button" onclick="removeQty2()" class="button-minus">
+                <a class="number" id="qty-2">0</a>
+                <input name="plus" value="+" type="button" onclick="addQty2()"  class="button-plus">
                          
               </p>
             </div>
@@ -151,7 +150,7 @@
     
             <div class="details">
               <p class="detail-title">Shipping
-                <span class="total-price" id="sub-price">$19</span>
+                <span class="total-price" id="shipping-price">$19</span>
               </p>
             </div>
     
@@ -160,7 +159,7 @@
             <div class="details">
               <p class="detail-title">
                 Total
-                <span class="total-price" id="t-price">$148.98</span>
+                <span class="total-price" id="t-price">0</span>
               </p>
             </div>
 

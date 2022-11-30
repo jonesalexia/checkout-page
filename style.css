@@ -260,11 +260,10 @@ strike {
 	color: #333333;
 }
 
-#sub-price, #t-price {
+#shipping-price {
     text-align: right;
-    margin-left: 200px;
-  }
-
+    padding-left: 100px;
+}
 
 
 .item-label {
