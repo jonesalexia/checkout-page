@@ -218,7 +218,7 @@ strike {
     text-align: center;
     border: none;
     background: #F2F2F2;
-}
+}	
 
 
 .button-minus, .button-plus {
@@ -286,10 +286,10 @@ footer {
    font-family: 'Poppins', sans-serif;
    font-size: 14px;
    font-weight: 600;
-   color: #BDBDBD;
+   color: #4E5150;
 }
 
 a {
-    color: #BDBDBD;
+    color: #4E5150;
 	text-decoration: none;
 }

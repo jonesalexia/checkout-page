@@ -48,7 +48,7 @@ function updateCart() {
   let value2 = parseInt(el2.text);
   let totalPrice2 = document.getElementById("price2");
   let priceTotal2 = parseFloat(totalPrice2.textContent);
-  total2 += value2 * priceTotal2;
+  total2 += value2 * priceTotal2 + 19.0;
   const totalCst2 = document.getElementById("t-price").textContent = '$' + total2.toFixed(2);
 
   let totalize = total + total2;
