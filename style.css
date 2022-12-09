@@ -262,7 +262,11 @@ strike {
 
 #shipping-price {
     text-align: right;
-    padding-left: 100px;
+    padding-left: 112px;
+}
+
+#t-price {
+	padding-left: 150px;
 }
 
 .item-label {

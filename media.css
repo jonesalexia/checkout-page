@@ -144,6 +144,9 @@
 	.contain {
 		width: 565px;
 	}
+
+	
+
 	
 	.material-icons {
 		left: 90px;
@@ -155,32 +158,38 @@
 	}
 	
 	.mail {
-		top: 790px;
+		top: 720px;
+		margin-left: -30px;
 	}
 
 	.call {
-		top: 895px;
+		top: 820px;
+		margin-left: -30px;
 	}
 
 	.person {
-		top: 1070px;
+		top: 990px;
+		margin-left: -30px;
 	}
 
 	.home {
-		top: 1175px;
+		top: 1090px;
+		margin-left: -30px;
 	}
 
 	.apartment {
-		top: 1272px;
+		top: 1188px;
+		margin-left: -30px;
 	}
 
 	.public {
-		top: 1372px;
+		top: 1285px;
+		margin-left: -30px;
 	}
 
 	.markunread_mailbox {
-		top: 1372px;
-		left: 380px;
+		top: 1283px;
+		left: 370px;
 	}
 	
 	#dropdown {
@@ -611,7 +620,7 @@
 		transform: scale(0.9);
 		padding: 30px 0px 40px;
 	}
-	
+
 	.item-row {
 		margin-left: 34px;
 	}
@@ -650,6 +659,10 @@
 	
 	#submit-label {
 	  margin: 23px 0 95px 180px;
+	}
+
+	#item1 {
+		margin-left: -5px;
 	}
 }
 
